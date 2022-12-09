@@ -87,4 +87,20 @@ sudo nano /etc/apt/apt.conf.d/50unattended-upgrades
 
 ## SSHポートの変更
 
+### ポートとは
+ポートの説明，well-known port
+
+### sshdの設定
+/etc/ssh/sshd_config  
+他の設定箇所を変更することでよりセキュアに
+
 ## ファイアウォールの利用
+
+### ファイアウォールとは
+概要
+
+### ufwの設定
+80, 22(あるいは変更後のもの)
+
+### ufwの起動
+start, enable
