@@ -1,8 +1,14 @@
 # はじめてのWebサーバ構築
 
 ## はじめに
+みなさんが普段何気なくブラウザで見ているWebページ，一体どのように表示されているのでしょうか？
+表示されて仕組みを説明できるようになっていただくのが本講座の目的です．何かわからないことがありましたら近くの講師に気軽に声をかけていただければと思います．
 
 ### Webページを構成する技術
+[第1回イベント](https://gdsc.community.dev/events/details/developer-student-clubs-national-institute-of-technology-kosen-kumamoto-college-presents-di-1hui-hazimetenowebtogit/)に参加された方は，なんとなく覚えているかもしれません．
+- Webページはハイパーテキストを記述するための言語**HTML**によって書かれていること
+- Webページの見栄えを**CSS**によって決めていること
+- Webページの動きの部分を作る役割を担う言語として**JavaScript**がよく使われていること
 
 ### Webサーバとは
 
