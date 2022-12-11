@@ -10,11 +10,11 @@ GDSC熊本高専チャプターへようこそ．
 投影資料のMarkdown版です．  
 コマンドのコピーペーストなどにご利用ください．
 
-- **[オプション講座 - セキュリティコース](opt1-security.md)**  
+- **[オプション講座 - セキュリティコース](opt-security.md)**  
 
-- **[オプション講座 - ネットワークコース](opt1-security.md)**  
+- **[オプション講座 - ネットワークコース](opt-network.md)**  
 
-- **[オプション講座 - Web開発コース](opt1-security.md)**  
+- **[オプション講座 - Web開発コース](opt-web_development.md)**  
 
 ## Sources
 
