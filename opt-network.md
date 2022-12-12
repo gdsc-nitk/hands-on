@@ -45,22 +45,14 @@ ngrokのアカウントを作成し，動作に必要なアクセストークン
 
 ## ngrokの導入
 
-1. ngrok本体をダウンロードします．
+ngrokをダウンロード&インストールします
+
+1. 以下のコマンドをコピー&ペーストして実行してください．
 ```
-wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
+curl -s https://ngrok-agent.s3.amazonaws.com/ngrok.asc | sudo tee /etc/apt/trusted.gpg.d/ngrok.asc >/dev/null && echo "deb https://ngrok-agent.s3.amazonaws.com buster main" | sudo tee /etc/apt/sources.list.d/ngrok.list && sudo apt update && sudo apt install ngrok
 ```
 
-2. ダウンロードしたファイルを解凍します．
-```
-unzip ngrok-stable-linux-arm.zip
-```
-
-3. 実行ファイルを，OS標準のディレクトリへ移動します．
-```
-sudo mv ngrok /usr/local/bin/
-```
-
-4. アクセストークンを設定します．  
+2. アクセストークンを設定します．  
 このとき，`ngrok authtoken`のあとに半角スペースを入れた上で，先ほどコピーしたアクセストークンを貼り付けて実行してください．
 `{ `や` }`は不要です．
 ```
