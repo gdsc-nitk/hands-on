@@ -250,3 +250,58 @@ sudo ufw status
 `Status: active`となっていればOKです．
 
 これで，54723番，80番ポート以外へのアクセスは全て遮断されるようになりました．
+
+## おわりに
+
+ソフトウェアアップデートの自動化，SSHポートの変更，ソフトウェアファイアウォールの利用に焦点を絞ってお届けしました．  
+今回の演習，お楽しみいただけたでしょうか．
+  
+セキュリティに関連する，昨今流行りの(?)キーワードをいくつか以下に示します．  
+もしご興味がありましたら，ぜひ調べてみてください．
+
+- 情報セキュリティの3要素
+  - 機密性 (Confidentiality)
+  - 完全性 (Integrity)
+  - 可用性 (Availability)
+- 暗号・認証技術
+  - 公開鍵暗号
+  - RSA暗号
+  - 楕円曲線暗号
+  - OAuth
+  - FIDO
+  - 電子署名
+- 脆弱性診断(ペネトレーションテスト，ペンテスト)
+  - Kali Linux
+  - Nessus
+  - OpenVAS
+  - Vuls
+  - OpenSCAP
+- 防御/検知製品
+  - WAF (Web Application Firewall)
+  - IDS (Intrusion Detection System)
+  - IPS (Intrusion Prevention System)
+  - EDR (Endpoint Detection and Response)
+  - XDR (Extended Detection and Response)
+  - CASB (Cloud Access Security Broker)
+- Webセキュリティ
+  - SQLインジェクション
+  - OSコマンドインジェクション
+  - HTTPヘッダインジェクション
+  - メールヘッダインジェクション
+  - evalインジェクション
+  - クロスサイトスクリプティング
+  - クロスサイトリクエストフォージェリ
+  - クリックジャッキング
+  - クリプトジャッキング
+  - セッションハイジャック
+  - JSONハイジャック
+  - オープンリダイレクト
+  - ディレクトリトラバーサル
+  - ファイルインクルード
+  - ドライブバイダウンロード
+  - バッファオーバーフロー
+- Other
+  - CSIRT (Computer Security Incident Respoinse Team)
+  - ハニーポット
+  - DNSキャッシュポイズニング
+  - DNSリフレクター攻撃
