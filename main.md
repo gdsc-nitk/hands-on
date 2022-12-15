@@ -69,4 +69,29 @@ pi@raspberrypi:~ $
 #### SSHとは
 
 #### `mkdir`コマンド
+
 ### まとめ
+Linuxについてしっかりと理解したい方は，[Linux標準教科書](https://linuc.org/textbooks/linux/)が無料で読めるのでおすすめです．もっといろいろなことを知りたい方はマサチューセッツ工科大学で行われているコンピュータサイエンスの授業の準備となるシェルやVim/Git/デバッグなどの便利なツールを教える[The Missing Semester of Your CS Educationの日本語版 (有志が作成)](https://missing-semester-jp.github.io/)なども面白いかもしれません．
+
+## 実際にWebサーバを動かそう
+
+### `index.html`をほかの人にも見てもらいたい
+
+### Webサーバについて
+
+#### `apt`コマンド
+
+#### Nginxのインストール
+
+### `index.html`を配置
+
+#### `wget`コマンド
+```
+wget https://raw.githubusercontent.com/gdsc-nitk/hands-on/main/index.html
+```
+
+#### ファイルを配置する場所を検討
+
+### まとめ
+
+## 終わりに
