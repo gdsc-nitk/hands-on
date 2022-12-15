@@ -57,6 +57,7 @@ ip a
 ```
 このコマンドを実行すると以下のような出力になると思います．
 ```
+pi@raspberrypi:~ $ ip a
 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
     inet 127.0.0.1/8 scope host lo
@@ -71,6 +72,7 @@ ip a
        valid_lft 86336sec preferred_lft 75536sec
     inet6 fe80::c76d:ed48:fa20:71cf/64 scope link
        valid_lft forever preferred_lft forever
+pi@raspberrypi:~ $
 ```
 色々表示されていて訳がわからないと思います．次の節で細かく見ていきましょう．
 
