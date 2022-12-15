@@ -2,7 +2,8 @@
 
 ## はじめに
 みなさんが普段何気なくWebブラウザで見ているWebページ，一体どのように表示されているのでしょうか？  
-表示されて仕組みを説明できるようになっていただくのが本講座の目的です．何かわからないことがありましたら近くの Core-Member に気軽に声をかけていただければと思います．
+表示されて仕組みを説明できるようになっていただくのが本講座の目的です．  
+何かわからないことがありましたら近くの Core-Member に気軽に声をかけていただければと思います．
 
 ### Webページを構成するための技術
 [第1回イベント](https://gdsc.community.dev/events/details/developer-student-clubs-national-institute-of-technology-kosen-kumamoto-college-presents-di-1hui-hazimetenowebtogit/)に参加された方は，なんとなく覚えているかもしれません．
