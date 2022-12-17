@@ -21,7 +21,7 @@ wget https://raw.githubusercontent.com/gdsc-nitk/hands-on/main/index.html
   
 [**Webページ**](https://developer.mozilla.org/ja/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines)はブラウザで表示することができる簡単な文書です．  
 文書は [**HTML**](https://developer.mozilla.org/ja/docs/Glossary/HTML) 言語で書かれています．  
-HTML関連する他の技術として，Webページの表示や表現を記述するための [**CSS**](https://developer.mozilla.org/ja/docs/Web/CSS) ，機能や振る舞いを記述する [JavaScript](https://developer.mozilla.org/ja/docs/Web/JavaScript) があります．
+HTML関連する他の技術として，Webページの表示や表現を記述するための [**CSS**](https://developer.mozilla.org/ja/docs/Web/CSS) ，機能や振る舞いを記述する [**JavaScript**](https://developer.mozilla.org/ja/docs/Web/JavaScript) があります．
 
 
 ### Webサーバのインストール
