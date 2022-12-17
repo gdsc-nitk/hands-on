@@ -20,7 +20,7 @@ ip a
     inet 192.168.10.105/24 brd 192.168.10.255 scope global dynamic noprefixroute wlan0
 ```
 
-`3: wlan0`という項目の`inet`のあとに，`XXX.XXX.XXX.XXX/24`といった形式の数字があると思います．  
+`3: wlan0`という項目の`inet`のあとに，`XXX.XXX.XXX.XXX`といった形式の数字列があると思います．  
 それがあなたの使っているRaspberry PiのIPアドレスです．
 
 ### 疎通を確認
@@ -43,7 +43,7 @@ ping {Raspberry PiのIPアドレス}
 - `ping {IPアドレス}`で正しいIPアドレスを入力していますか．
 - `ip a`コマンドを実行して，自分のRaspberry Piに割り当てられているIPアドレスを正しく読み取りましたか．
 
-それでもうまくいかない場合は近くの Core Member に質問していただければと思います．
+それでもうまくいかない場合は近くの Core Member にお声がけください．
 
 #### Windowsの場合
 ```
