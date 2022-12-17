@@ -40,8 +40,7 @@ sudo apt update
 sudo apt install nginx -y
 ```
 
-3. このコマンドを実行すると，インストールと同時にNginxが自動的に開始されます．  
-以下のコマンドでNginxが動いているか確認します．
+3. Nginxが動いているか確認します．
 
 ```
 systemctl status nginx
