@@ -42,13 +42,12 @@ sudo apt install nginx -y
 systemctl status nginx
 ```
 
-以下のように出力されれば正しく動作しています．
+以下のように`Active: active (running)`と出力されれば正しく動作しています．
 ```
 ● nginx.service - A high performance web server and a reverse proxy server
      Loaded: loaded (/lib/systemd/system/nginx.service; enabled; vendor preset: enabled)
      Active: active (running) since Sat 2022-12-17 17:24:38 JST; 10min ago
 ```
-
 
 4. 先ほどダウンロードした`index.html`を所定の位置に配置します．
 
