@@ -20,32 +20,55 @@
 以下に掲載している各コンテンツは，それぞれ独立しています．  
 順番もありませんので，興味のあるものから試してみてください．
 
-### (a) CUIで用いる便利なソフトウェアの紹介
+### (a) WordPressの利用
+
+世界中で公開されているWebサイトの約43%は，「WordPress」というCMSを用いて制作されています．  
+([熊本高専のWebサイト](https://kumamoto-nct.ac.jp)や[K-Pass](https://k-pass.net)，[電波祭Webサイト](https://denpasai.com)などもWordPressを利用しています．)
+
+これを，Raspberry Pi上に構築してみましょう．  
+php，MySQL(or MariaDB)で作られています．
+
+例) https://www.ingenious.jp/articles/howto/raspberry-pi-howto/wordpress-server-setup/
+
+### (b) クラウドサービスの利用
+
+Googleが提供するパブリッククラウド「Google Cloud Platform」を使ってみましょう．  
+たくさんのサービスが提供されていますが，このうち**Compute Engine**を使用すると，クラウド上に任意のサーバを構築できます．
+
+なお，課金が発生する可能性もあります．  
+ページに記載の内容をしっかり読んで，不安なときは近くのCore Membersにお声掛けくださいね．  
+(各々の責任でお試しください．)
+
+例) https://qiita.com/Brutus/items/22dfd31a681b67837a74
+
+### **(おまけ)** CUIで用いる便利なソフトウェアの紹介
 著者が個人的に使用しているソフトウェアのうち，広くおすすめできるものを以下に紹介します．  
 いずれも，`apt install ~~~~`でインストールすることができます．  
 ただし，各ソフトウェアの正常性を保証するものではありません．各々の責任で調査し，ご利用ください．
 
 #### 実用的なもの
+- **fish**  
+コマンドの補完機能などが優秀な，大変使いやすいシェル
 - **bat**  
 catにシンタックスハイライトをプラス
-- **htop**  
-topの進化版
-- **fd**  
-findの進化版
 - **exa**  
 lsの進化版
+- **tree**  
+フォルダ構造を容易に可視化
 - **ripgrep**  
 grepの進化版
+- **htop**  
+topの進化版
 - **dog**  
 dig(nslookup)の進化版
+- **fd**  
+findの進化版
 - **tldr**  
 各コマンドの使用例を表示
-- **iperf3**
+- **iperf3**  
 帯域測定に利用
 - **ffmpeg**  
 映像/音声ファイルの変換，編集，配信
-- **tree**  
-フォルダ構造を容易に可視化
 - **byobu**  
 tmuxをかんたんに．
 
@@ -58,27 +81,6 @@ tmuxをかんたんに．
 もはやスクリーンセーバー
 - **figlet**  
 アスキーコードジェネレーター
-
-### (b) WordPressの利用
-
-世界中で公開されているWebサイトの約43%は，「WordPress」というCMSを用いて制作されています．  
-([熊本高専のWebサイト](https://kumamoto-nct.ac.jp)や[K-Pass](https://k-pass.net)，[電波祭Webサイト](https://denpasai.com)などもWordPressです．)
-
-これを，Raspberry Pi上に構築してみましょう．  
-php，MySQL(or MariaDB)で作られています．
-
-例) https://www.ingenious.jp/articles/howto/raspberry-pi-howto/wordpress-server-setup/
-
-### (c) クラウドサービスの利用
-
-Googleが提供するパブリッククラウド「Google Cloud Platform」を使ってみましょう．  
-たくさんのサービスが提供されていますが，このうち**Compute Engine**を使用すると，クラウド上に任意のサーバを構築できます．
-
-なお，課金が発生する可能性もあります．  
-ページに記載の内容をしっかり読んで，不安なときは近くのCore Membersにお声掛けくださいね．  
-(各々の責任でお試しください．)
-
-例) https://qiita.com/Brutus/items/22dfd31a681b67837a74
 
 ## おわりに
 
