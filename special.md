@@ -23,7 +23,7 @@
 ### (a) WordPressの利用
 
 世界中で公開されているWebサイトの約43%は，「WordPress」というCMSを用いて制作されています．  
-([熊本高専のWebサイト](https://kumamoto-nct.ac.jp)や[K-Pass](https://k-pass.net)，[電波祭Webサイト](https://denpasai.com)などもWordPressを利用しています．)
+([熊本高専のWebサイト](https://kumamoto-nct.ac.jp)や[K-Pass](https://k-pass.net)，[電波祭Webサイト](http://denpasai.com)などもWordPressを利用しています．)
 
 これを，Raspberry Pi上に構築してみましょう．  
 php，MySQL(or MariaDB)で作られています．
