@@ -55,10 +55,10 @@ Googleが提供するパブリッククラウド「Google Cloud Platform」を�
 当てはまる場合は，下にある **(d) コンテナの利用**  に進んでください．  
 
 1. 仮想化ソフトウェアの導入  
-Windowsの方は[VirtualBox](https://www.virtualbox.org/wiki/Downloads)，
-Mac(Intel CPU)の方は[VMware Fusion](https://aireblog.com/vmware-fusion-download-free-license/)をダウンロードしてください．  
-ただし，M1/M2 Macをご利用の方は[VirtualBox](https://www.virtualbox.org/wiki/Downloads)の[Developer preview for macOS / Arm64 (M1/M2) hosts]を選択してください．  
-ダウンロードを終えたら，手順に従ってインストールしてください．
+Windows 10/11 Home：[VirtualBox](https://www.virtualbox.org/wiki/Downloads)  
+Windows 10/11 Pro/Edu/Enterprise：[Hyper-V](https://4thsight.xyz/26358)  
+Intel Mac：[VMware Fusion](https://aireblog.com/vmware-fusion-download-free-license/)  
+M1/M2 Mac：[VirtualBox](https://www.virtualbox.org/wiki/Downloads) (Developer preview for macOS / Arm64 (M1/M2) hosts)
 
 2. OSイメージ(ISO)の入手  
 今回は，サーバOSとして世界シェアNo.1のUbuntuを利用します．  
