@@ -63,13 +63,13 @@ PS C:\Users\hi18iwano>
 #### macOSの場合
 ```
 hi18iwano@MacBook ~ % ping {Raspberry Piのアドレス}
-PING {Raspberry Piのアドレス} ({Raspberry Piのアドレス}): 56 data bytes
+PING {Raspberry PiのIPアドレス} ({Raspberry PiのIPアドレス}): 56 data bytes
 Request timeout for icmp_seq 0
 Request timeout for icmp_seq 1
 Request timeout for icmp_seq 2
 Request timeout for icmp_seq 3
 ^C
---- {Raspberry Piのアドレス} ping statistics ---
+--- {Raspberry PiのIPアドレス} ping statistics ---
 5 packets transmitted, 0 packets received, 100.0% packet loss
 hi18iwano@MacBook ~ % 
 ```
@@ -78,12 +78,12 @@ hi18iwano@MacBook ~ %
 自分のRaspberry PiのIPアドレスを確認できましたので，実際にリモート接続を行います．  
 以下のコマンドを実行してください．
 ```
-ssh pi@{Raspberry Piのアドレス}
+ssh pi@{Raspberry PiのIPアドレス}
 ```
 
 実行すると以下のように出力されますので，`yes`と入力します．
 ```
-The authenticity of host '{Raspberry Piのアドレス} ({Raspberry Piのアドレス})' can't be established.
+The authenticity of host '{Raspberry PiのIPアドレス} ({Raspberry PiのIPアドレス})' can't be established.
 ECDSA key fingerprint is SHA256:HDwDGDI9Bs4TT8YSAggTw9efiel5CgRqKZtPlsQxaE8.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? 
 ```
