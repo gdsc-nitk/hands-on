@@ -20,7 +20,7 @@
 以下に掲載している各コンテンツは，それぞれ独立しています．  
 順番もありませんので，興味のあるものから試してみてください．
 
-### (a) WordPressの利用
+### (a) WordPressの利用 (on Raspberry Pi)
 
 世界中で公開されているWebサイトの約43%は，「WordPress」というCMSを用いて制作されています．  
 ([熊本高専のWebサイト](https://kumamoto-nct.ac.jp)や[K-Pass](https://k-pass.net)，[電波祭Webサイト](http://denpasai.com)などもWordPressを利用しています．)
@@ -30,7 +30,7 @@ php，MySQL(or MariaDB)で作られています．
 
 例) https://www.ingenious.jp/articles/howto/raspberry-pi-howto/wordpress-server-setup/
 
-### (b) クラウドサービスの利用
+### (b) クラウドサービスの利用 (on Your PC)
 
 Googleが提供するパブリッククラウド「Google Cloud Platform」を使ってみましょう．  
 たくさんのサービスが提供されていますが，このうち**Compute Engine**を使用すると，クラウド上に任意のサーバを構築できます．
@@ -41,7 +41,7 @@ Googleが提供するパブリッククラウド「Google Cloud Platform」を�
 
 例) https://qiita.com/Brutus/items/22dfd31a681b67837a74
 
-### (c) VM(Virtual Machine)の利用
+### (c) ハイパーバイザ型仮想化技術の利用 (on Your PC)
 
 自身の所有するPCの中に，仮想的にサーバを構築してみましょう．  
 
@@ -52,13 +52,13 @@ Googleが提供するパブリッククラウド「Google Cloud Platform」を�
 
 **(注)**  
 メモリ8GB以下，ストレージ(HDD/SSD)の空き容量32GB以下の場合は動作しない可能性があります．  
-当てはまる場合は，下にある **(d) コンテナの利用**  に進んでください．  
+当てはまる場合は，下にある **(d) コンテナ型仮想化技術の利用**  に進んでください．  
 
 1. 仮想化ソフトウェアの導入  
 Windows 10/11 Home：[VirtualBox](https://www.virtualbox.org/wiki/Downloads)  
 Windows 10/11 Pro/Edu/Enterprise：[Hyper-V](https://4thsight.xyz/26358)  
 Intel Mac：[VMware Fusion](https://aireblog.com/vmware-fusion-download-free-license/)  
-M1/M2 Mac：[VirtualBox](https://www.virtualbox.org/wiki/Downloads) (Developer preview for macOS / Arm64 (M1/M2) hosts)
+M1/M2 Mac：[VirtualBox](https://www.virtualbox.org/wiki/Downloads) (Developer preview for macOS / Arm64 (M1/M2) hosts)  
 
 2. OSイメージ(ISO)の入手  
 今回は，サーバOSとして世界シェアNo.1のUbuntuを利用します．  
@@ -66,14 +66,41 @@ M1/M2 Mac：[VirtualBox](https://www.virtualbox.org/wiki/Downloads) (Developer p
 ファイルサイズは1.4GBです．
 
 3. OSのインストール  
-Virtual Box または Fusion を開き，手順に従ってOSのインストールを進めてください．  
+インストールした仮想化ソフトウェアを開き，手順に従ってOSのインストールを進めてください．  
 
 4. SSHの利用，Webサーバのセットアップ，etc.  
 [メイン講座・オプション講座](README.md)の手順に従って，利用できるか試してみてください．
 
-### (d) コンテナの利用
+### (d) コンテナ型仮想化技術の利用 (on Your PC)
 
+サーバOSの仕組みを学ぶには，実機と同じように構成されたハイパーバイザ型仮想化を利用することが望ましいです．  
+一方で，手軽にサーバ周りのソフトウェアを試したいという状況においては，コンテナ型仮想化が適しています．  
 
+詳しい仕組みについては，[こちら](https://www.itmedia.co.jp/enterprise/articles/1612/19/news041.html)を参照してください．
+
+ここでは，Dockerを利用します．  
+以下にドキュメントを示しますので，頑張って挑戦してみてください．
+
+[Windows](https://docs.docker.com/desktop/install/windows-install/)  
+[Mac](https://docs.docker.com/desktop/install/mac-install/)
+
+インストールを終えたら，試しにNginxイメージを利用してみることにします．
+
+1. Nginxイメージを取得します．
+```
+docker pull nginx
+```
+
+2. 数十秒ほど待機します．
+
+3. Nginxイメージを，"nginx"という名前で起動します． 
+このとき，コンテナの80番ポートを端末の8080番ポートに転送します．
+```
+docker run -p 8080:80 --name nginx nginx
+```
+
+4. 普段使用しているブラウザを開き，`http://localhost:8080`にアクセスしてください．  
+`Welcome to Nginx!` と書かれたテストページが表示されれば，正しく動作しています．
 
 ### **(おまけ)** CUIで用いる便利なソフトウェアの紹介
 著者が個人的に使用しているソフトウェアのうち，広くおすすめできるものを以下に紹介します．  
