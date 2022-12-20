@@ -41,6 +41,36 @@ Googleが提供するパブリッククラウド「Google Cloud Platform」を�
 
 例) https://qiita.com/Brutus/items/22dfd31a681b67837a74
 
+### (c) VM(Virtual Machine)の利用
+
+自身の所有するPCの中に，仮想的にサーバを構築してみましょう．  
+メモリ8GB以下，ストレージ(HDD/SSD)の空き容量32GB以下の場合は動作しない可能性があります．  
+制御情報システム工学科の方は，すでに導入されているかもしれません．  
+
+以下に大まかな手順を示します．  
+詰まったときはまずGoogleなどで検索して，5分ほど調べても求める情報が得られなかったら近くのCore Memberに声をかけてください．
+
+1. 仮想化ソフトウェアの導入  
+Windowsの方は[VirtualBox](https://www.virtualbox.org/wiki/Downloads)，
+Mac(Intel CPU)の方は[VMware Fusion](https://aireblog.com/vmware-fusion-download-free-license/)をダウンロードしてください．  
+ただし，M1/M2 Macをご利用の方は[VirtualBox](https://www.virtualbox.org/wiki/Downloads)の[Developer preview for macOS / Arm64 (M1/M2) hosts]を選択してください．  
+ダウンロードを終えたら，手順に従ってインストールしてください．
+
+2. OSイメージ(ISO)の入手  
+今回は，サーバOSとして世界シェアNo.1のUbuntuを利用します．  
+[Ubuntu](https://jp.ubuntu.com/download#:~:text=22.10%20release%20notes-,Ubuntu%20Server,-%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%81%AA%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB)を開き，下部にある **Ubuntu Server 22.04.1 LTS** をダウンロードしてください．  
+ファイルサイズは1.4GBです．
+
+3. OSのインストール  
+Virtual Box または Fusion を開き，手順に従ってOSのインストールを進めてください．  
+
+4. SSHの利用，Webサーバのセットアップ，etc.  
+[メイン講座・オプション講座](README.md)の手順に従って，利用できるか試してみてください．
+
+<!-- ### (d) コンテナの利用 -->
+
+
+
 ### **(おまけ)** CUIで用いる便利なソフトウェアの紹介
 著者が個人的に使用しているソフトウェアのうち，広くおすすめできるものを以下に紹介します．  
 いずれも，`apt install ~~~~`でインストールすることができます．  
