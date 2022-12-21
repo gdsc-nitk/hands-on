@@ -44,7 +44,7 @@ GDSC熊本高専チャプターへようこそ．
 - **[ToDoリスト Webアプリのコード](https://github.com/gdsc-nitk/hands-on/tree/main/web-dev-project)**  
 Web開発コースのプロジェクトコードです．
 
-- **[ToDoリスト WebアプリのLive URL](https://github.com/gdsc-nitk/hands-on/tree/main/web-dev-project)**  
+- **[ToDoリスト WebアプリのLive URL](https://gdsc-nitk.github.io/hands-on/web-dev-project/)**  
 Web開発コースのLive URLです．
 
 ## Links
