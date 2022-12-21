@@ -13,7 +13,9 @@ To Doリストアプリを作成します。
   - [CSSの構成](#cssの構成)
   - [CSSを適用する方法](#cssを適用する方法)
   - [CSSの例](#cssの例)
-- [JavaScript]()
+- [JavaScript](#javascript)
+  - [JavaScriptを適用する方法](#javascriptを適用する方法)
+  - [JavaScriptの基礎](#javascriptの基礎)
 
 ## HTML
 HyperText Markup Languageの略であり、Webページの構成を決めるために用いられます．
