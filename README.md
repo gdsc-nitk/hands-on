@@ -41,8 +41,11 @@ GDSC熊本高専チャプターへようこそ．
 - **[index.html](https://raw.githubusercontent.com/gdsc-nitk/hands-on/main/index.html)**  
 静的サイトのサンプルコードです．
 
-- **[index.html](https://github.com/gdsc-nitk/hands-on/tree/main/web-dev-project)**  
+- **[ToDoリスト Webアプリのコード](https://github.com/gdsc-nitk/hands-on/tree/main/web-dev-project)**  
 Web開発コースのプロジェクトコードです．
+
+- **[ToDoリスト WebアプリのLive URL](https://github.com/gdsc-nitk/hands-on/tree/main/web-dev-project)**  
+Web開発コースのLive URLです．
 
 ## Links
 
