@@ -2,8 +2,8 @@
 
 ## はじめに
 
-本講座では，基礎講座で製作したWebサーバにおいてWeb開発を行う方法を示します．  
-To Doリストアプリを作成します。
+本講座では，基礎講座で製作したWebサーバにおいてWeb開発を行う方法を示します.  
+To DoリストWebアプリを作成します。制作物を<a href="https://gdsc-nitk.github.io/hands-on/web-dev-project/" target="_blank">こちら</a>から参考にしてください。
 
 ## 内容
 - [HTML](#html)  
