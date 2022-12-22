@@ -3,7 +3,7 @@
 ## はじめに
 
 本講座では，基礎講座で製作したWebサーバにおいてWeb開発を行う方法を示します.  
-To DoリストWebアプリを作成します。制作物を<a href="https://gdsc-nitk.github.io/hands-on/web-dev-project/" target="_blank">こちら</a>から参考にしてください。
+To DoリストWebアプリを作成します．制作物を<a href="https://gdsc-nitk.github.io/hands-on/web-dev-project/" target="_blank">こちら</a>から参考にしてください．
 
 ## 内容
 - [HTML](#html)  
@@ -18,9 +18,9 @@ To DoリストWebアプリを作成します。制作物を<a href="https://gdsc
   - [JavaScriptの基礎](#javascriptの基礎)
 
 ## HTML
-HyperText Markup Languageの略であり、Webページの構成を決めるために用いられます．
+HyperText Markup Languageの略であり，Webページの構成を決めるために用いられます．
 ### HTMLの構成
-HTMLは、基本的に以下の4つの要素（以下タグ）で構成されています。
+HTMLは，基本的に以下の4つの要素（以下タグ）で構成されています．
 ```
 <!-- DOCTYPEはファイルがhtmlであるということを示す宣言 -->
 <!DOCTYPE html> 
@@ -33,7 +33,7 @@ HTMLは、基本的に以下の4つの要素（以下タグ）で構成されて
     </head>
 
     <body>
-      <!-- 実際に見える部分、ページのコンテンツの情報 -->
+      <!-- 実際に見える部分，ページのコンテンツの情報 -->
     <body>
 
 </html>
@@ -56,7 +56,7 @@ HTMLは、基本的に以下の4つの要素（以下タグ）で構成されて
 
   </head>
 
-  <!-- 実際に見える部分、ページのコンテンツの情報 -->
+  <!-- 実際に見える部分，ページのコンテンツの情報 -->
   <body> 
 
       <!-- 見出しタグ -->
@@ -66,7 +66,7 @@ HTMLは、基本的に以下の4つの要素（以下タグ）で構成されて
       <h6>見出し６</h6>
 
       <!-- パラグラフタグ -->
-      <p>GDSCのイベントの参加していただき、ありがとうございます！</p>
+      <p>GDSCのイベントの参加していただき，ありがとうございます！</p>
 
       <!-- ハイパーリンクタグ -->
       <a href="他ページへのURL">表示するテキスト</a>
@@ -94,7 +94,7 @@ HTMLは、基本的に以下の4つの要素（以下タグ）で構成されて
         <p>
           <a href="https://developers.google.com/community/gdsc" target="_blank">
           Google Developer Student Clubs（GDSC）
-          </a>プログラムは、Google のテクノロジーに関心のある学生向けのコミュニティです。
+          </a>プログラムは，Google のテクノロジーに関心のある学生向けのコミュニティです．
         </p>
       </div>
   </body>
@@ -102,7 +102,7 @@ HTMLは、基本的に以下の4つの要素（以下タグ）で構成されて
 ```
 
 ## CSS
-HTMLで表現するタグを、どのように装飾するかを決める役割を果たします．
+HTMLで表現するタグを，どのように装飾するかを決める役割を果たします．
 
 ### CSSの構成
 ```
@@ -198,12 +198,12 @@ div {
 ```
 
 ### JavaScriptの基礎
-ゲーム、ボタンを押したときの反応、フォームへのデータ入力、動的なスタイル付け、アニメーション、HTMLの内容を更新など様々なことができます．
+ゲーム，ボタンを押したときの反応，フォームへのデータ入力，動的なスタイル付け，アニメーション，HTMLの内容を更新など様々なことができます．
 ```
 const myHeading = document.querySelector('h1');   // 見出しタグをmyHeading変数に格納
 myHeading.textContent = 'Hello world!';           // 見出しの内容を更新
 
-// 見出しをクリックすると、通知が表示される
+// 見出しをクリックすると，通知が表示される
 document.querySelector('h1').addEventListener('click', function () {
   alert('痛っ! つつかないで!');
 }); 
