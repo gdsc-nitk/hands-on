@@ -5,6 +5,31 @@
 本講座では，基礎講座で製作したWebサーバにおいてWeb開発を行う方法を示します.  
 To DoリストWebアプリを作成します．制作物を<a href="https://gdsc-nitk.github.io/hands-on/web-dev-project/" target="_blank">こちら</a>から参考にしてください．
 
+まずは，サンプルプログラムを手元のWebサーバにダウンロードしましょう．
+```
+cd /var/www/html
+mkdir todo
+cd todo
+wget https://raw.githubusercontent.com/gdsc-nitk/hands-on/main/web-dev-project/index.html
+wget https://raw.githubusercontent.com/gdsc-nitk/hands-on/main/web-dev-project/style.css
+wget https://raw.githubusercontent.com/gdsc-nitk/hands-on/main/web-dev-project/script.js
+```
+
+ブラウザで`http://{Raspberry PiのIPアドレス}/todo/index.html`を開ければOKです．
+
+ソースファイルと以下資料とを見比べるか，
+```
+cat index.html
+cat style.css
+cat script.js
+```
+実際に編集しながら確認してみてください．
+```
+nano index.html
+nano style.css
+nano script.js
+```
+
 ## 内容
 - [HTML](#html)  
   - [HTMLの構成](#htmlの構成)
