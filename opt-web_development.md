@@ -8,11 +8,11 @@ To DoリストWebアプリを作成します．制作物を<a href="https://gdsc
 まずは，サンプルプログラムを手元のWebサーバにダウンロードしましょう．
 ```
 cd /var/www/html
-mkdir todo
+sudo mkdir todo
 cd todo
-wget https://raw.githubusercontent.com/gdsc-nitk/hands-on/main/web-dev-project/index.html
-wget https://raw.githubusercontent.com/gdsc-nitk/hands-on/main/web-dev-project/style.css
-wget https://raw.githubusercontent.com/gdsc-nitk/hands-on/main/web-dev-project/script.js
+sudo wget https://raw.githubusercontent.com/gdsc-nitk/hands-on/main/web-dev-project/index.html
+sudo wget https://raw.githubusercontent.com/gdsc-nitk/hands-on/main/web-dev-project/style.css
+sudo wget https://raw.githubusercontent.com/gdsc-nitk/hands-on/main/web-dev-project/script.js
 ```
 
 ブラウザで`http://{Raspberry PiのIPアドレス}/todo/index.html`を開ければOKです．
@@ -25,9 +25,9 @@ cat script.js
 ```
 実際に編集しながら確認してみてください．
 ```
-nano index.html
-nano style.css
-nano script.js
+sudo nano index.html
+sudo nano style.css
+sudo nano script.js
 ```
 
 ## 内容
