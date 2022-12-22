@@ -32,7 +32,8 @@ GDSC熊本高専チャプターへようこそ．
 
   - **[Web開発コース](opt-web_development.md)**  
   基礎講座で制作したWebサーバにおいて，Web開発の第1歩を踏む方法を示します．  
-  HTML/CSS/JavaScriptを用いて，ToDoリストWebアプリを作成します．
+  <!-- HTML/CSS/JavaScriptを用いて，ToDoリストWebアプリを作成します． -->
+  HTML/CSS/JavaScriptの概要を説明します．
 
 - **スペシャルプログラム**  
 オプション講座の内容を終えた方向けに，さらに特別なプログラムを用意しています．  
