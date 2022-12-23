@@ -53,6 +53,9 @@ Web開発コースのプロジェクトコードです．
 - **[ToDoリスト WebアプリのLive URL](https://gdsc-nitk.github.io/hands-on/web-dev-project/)**  
 Web開発コースのLive URLです．
 
+- **[スライド](slide.pdf)**  
+講座で使用したスライドです．
+
 ## Links
 
 - **[GDSC 熊本高専チャプター](https://gdsc.community.dev/national-institute-of-technology-kosen-kumamoto-college/)**
