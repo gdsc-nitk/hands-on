@@ -33,40 +33,23 @@ sudo apt upgrade -y
 しかし，サーバ管理者が24時間365日常に見張り続けることは現実的ではありません．  
 そこで，アップデートを自動的に実施するように設定してみましょう．
 
-1. まずは自動アップデート用のパッケージをインストールします．
+1. 自動アップデート用のパッケージをインストールします．
 
 ```
 sudo apt install unattended-upgrades -y
 ```
 
-2. Raspberry Pi 用の設定に書き換えます．  
-以下のコマンドで，設定ファイルをnanoというエディタを使って開きます．  
-(ご存じの方は，vi/vim/emacs/edなどをご利用いただいても構いません．)
+2. 自動アップデート用のプログラムを起動します．
 
 ```
-sudo nano /etc/apt/apt.conf.d/50unattended-upgrades
+sudo systemctl start unattended-upgrades
 ```
 
-こういった行がありますので，
+3. 以降，再起動後も自動で起動するようにします．
+
 ```
-//      "origin=Debian,codename=${distro_codename}-updates";
-//      "origin=Debian,codename=${distro_codename}-proposed-updates";
-        "origin=Debian,codename=${distro_codename},label=Debian";
-        "origin=Debian,codename=${distro_codename},label=Debian-Security";
-        "origin=Debian,codename=${distro_codename}-security,label=Debian-Security";
+sudo systemctl enable unattended-upgrades
 ```
-以下のように書き換えてください．
-```
-//      "origin=Debian,codename=${distro_codename}-updates";
-//      "origin=Debian,codename=${distro_codename}-proposed-updates";
-//      "origin=Debian,codename=${distro_codename},label=Debian";
-//      "origin=Debian,codename=${distro_codename},label=Debian-Security";
-//      "origin=Debian,codename=${distro_codename}-security,label=Debian-Security";
-        "o=*,a=*";
-```
-編集を終えたら，`Ctrl`キーを押しながら`X`を押します．  
-すると保存するのかと聞かれますので，`Y`を押して`Enter`キーを押してください．  
-これでnanoエディタが終了し，もとのシェルの画面に戻ったはずです．
 
 以上で自動アップデートの設定は終了です．
 
@@ -125,6 +108,8 @@ cat /etc/services
 以降，操作を誤るとSSH接続ができなくなりますのでよく注意して入力・実行してください．
 
 1. SSH接続を受け付けるsshdの設定ファイルを編集します．
+以下のコマンドで，設定ファイルをnanoというエディタを使って開きます．  
+(ご存じの方は，vi/vim/emacs/edなどをご利用いただいても構いません．)
 ```
 sudo nano /etc/ssh/sshd_config
 ```
